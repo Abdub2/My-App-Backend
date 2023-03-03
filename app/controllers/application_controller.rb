@@ -34,6 +34,31 @@ class ApplicationController < Sinatra::Base
     movies.to_json
   end
 
+  delete '/movies/:user_id' do
+    movies = Movie.find(params[:user_id])
+    movies.destroy
+    movies.to_json
+  end
+
+  put '/movies/:id' do
+    movies = Movie.find(params[:user_id])
+    movies.update(
+      title: params[:title],
+      description: params[:description],
+      year: params[:year]
+      movies.to_json
+    )
+  end
+
+  post '/user' do
+    users = users.create(
+      first_name: params[:first_name]
+      last_name: params[:last_name]
+      email: params[:email]
+      password: params[password]
+    )
+  end
+
 
 
 end
