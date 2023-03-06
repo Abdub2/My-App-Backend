@@ -2,52 +2,102 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 Movie.create(
-    title: "NO BEARS",
+    title: "Avengers: Endgame",
+    year: 2020,
+    description: "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
+    movie_url: "avengers.jpg",
+    user_id: nil,
+    originally_fetched: true
+)
+
+Movie.create(
+    title: "Prey for the Devil",
     year: 2022,
-    description: "No Bears bears witness to Jafar Panahi's incisive filmmaking while urging viewers to examine the complex layers of a deceptively simple story: a man oppressed and suppressed by his country.",
-    user_id: nil
+    description: "The Roman Catholic Church combats a global rise in demonic possessions by reopening schools to train priests to perform exorcisms. Although nuns are forbidden to perform this ritual, a professor recognizes Sister Ann's gifts and agrees to train her. Thrust onto the spiritual frontline, she soon finds herself in a battle for the soul of a young girl who's possessed by the same demon that tormented her own mother years earlier.",
+    movie_url: "prey.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 Movie.create(
-    title: "The Godfather",
-    year: 1972,
-    description: "The corruption-soaked story follows a powerful immigrant family grappling with the paradoxical values of reign and religion; those moral contradictions are crystallized in a legendary baptism sequence, superbly edited in parallel to the murdering of four rivaling dons",
-    user_id: nil
+    title: "Red",
+    year: 2010,
+    description: "Frank Moses, a former black-ops agent, learns that his life is under threat from an assassin. In a bid to protect himself, he reunites with his old team to nab the man who has vowed to kill him.",
+    movie_url: "red.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 Movie.create(
-    title: "NO BEARS",
-    year: 2022,
-    description: "No Bears bears witness to Jafar Panahi's incisive filmmaking while urging viewers to examine the complex layers of a deceptively simple story: a man oppressed and suppressed by his country.",
-    user_id: nil
+    title: "Spectre",
+    year: 2015,
+    description: "James Bond receives an obscure message from M about a sinister organisation. With the help of Madeleine, he uncovers the conspiracy, only to face an ugly truth.",
+    movie_url: "spectre.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 Movie.create(
-    title: "Seven Samurai",
-    year: 1954,
-    description: "It’s the easiest 207 minutes of cinema you’ll ever sit through. On the simplest of frameworks—a poor farming community pools its resources to hire samurai to protect them from the brutal bandits who steal its harvest—Akira Kurosawa mounts a finely drawn epic, by turns absorbing, funny and exciting.",
-    user_id: nil
+    title: "Orphan",
+    year: 2009,
+    description: "After losing their baby, a couple adopt a nine-year-old girl. However, they soon make a troubling discovery about her mysterious past and uncover several traits of her disturbing personality.",
+    movie_url: "orphan.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 Movie.create(
-    title: "Goodfellas",
-    year: 1990,
-    description: "‘As far back as I can remember, I always wanted to be a gangster.’ Ray Liotta’s opening line is the crime movie equivalent of ‘Once upon a time…’, and what follows is Martin Scorsese’s version of a fairy tale – the story of a starry-eyed Brooklyn kid who realises his boyhood dream and still comes out a schnook in the end. ",
-    user_id: nil
+    title: "Ocean's Thirteen",
+    year: 2007,
+    description: "Danny and his gang of thieves have to pull off their most risky heist to defend one of their own. However, they are going to need more than luck to break the ruthless Willy and his casino.",
+    movie_url: "oceans.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 Movie.create(
-    title: "The Batman",
-    year: 2022,
-    description: "A grim, gritty, and gripping super-noir, The Batman ranks among the Dark Knight's bleakest -- and most thrillingly ambitious -- live-action outings.",
-    user_id: nil
+    title: "Madagascar",
+    year: 2005,
+    description: "Four spoiled animals from the New York Central Zoo escape with the unintentional help of four fugitive penguins. They subsequently find themselves in Madagascar amidst happy lemurs.",
+    movie_url: "madagascar.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
-User.create(
-    first_name: "Abdub",
-    last_name: "Doyo",
-    email: "abdub@gmail.com",
-    password: "abdub123"
+Movie.create(
+    title: "The Conjuring",
+    year: 2013,
+    description: "The Perron family moves into a farmhouse where they experience paranormal phenomena. They consult demonologists, Ed and Lorraine Warren, to help them get rid of the evil entity haunting them.",
+    movie_url: "conjuring.jpg",
+    user_id: nil,
+    originally_fetched: true
+)
+
+Movie.create(
+    title: "The Bourne Legacy",
+    year: 2012,
+    description: "The US Department of Defense, which runs covert operations, offers stimulants to its field operatives for better results. When discovered, an English reporter plans to expose these secret activities.",
+    movie_url: "bourne.jpg",
+    user_id: nil,
+    originally_fetched: true
+)
+
+Movie.create(
+    title: "Kung Fu Panda",
+    year: 2008,
+    description: "When Po the Panda, a kung fu enthusiast, gets selected as the Dragon Warrior, he decides to team up with the Furious Five and destroy the evil forces that threaten the Valley of Peace.",
+    movie_url: "panda.jpg",
+    user_id: nil,
+    originally_fetched: true
+)
+
+Movie.create(
+    title: "Bumblebee",
+    year: 2018,
+    description: "During the Cybertron Civil War, Optimus Prime sends Autobot scout B-127 to Earth to form a base where they can regroup. Later, the scout befriends a girl named Charlie, who names him Bumblebee.",
+    movie_url: "bee.jpg",
+    user_id: nil,
+    originally_fetched: true
 )
 
 puts "✅ Done seeding!"
