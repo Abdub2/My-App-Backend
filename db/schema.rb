@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2023_03_01_113739) do
     t.integer "year"
     t.string "description"
     t.integer "user_id"
+    t.string "movie_url"
+    t.boolean "originally_fetched"
   end
 
   create_table "users", force: :cascade do |t|

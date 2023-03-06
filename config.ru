@@ -8,8 +8,5 @@ use Rack::Cors do
   end
 end
 
-# Parse JSON from the request body into the params hash
-use Rack::JSONBodyParser
-
-# Our application
-run ApplicationController
+use UserController
+run MovieController

@@ -1,4 +1,4 @@
-class ApplicationController < Sinatra::Base
+class MovieController < Sinatra::Base
   set :default_content_type, 'application/json'
 
   configure do
