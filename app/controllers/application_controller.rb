@@ -50,17 +50,4 @@ class ApplicationController < Sinatra::Base
     )
     movies.to_json
   end
-
-  post '/user' do
-    users = users.create(
-      first_name: params[:first_name],
-      last_name: params[:last_name],
-      email: params[:email],
-      password: params[:password]
-    )
-    user.to_json
-  end
-
-
-
 end
