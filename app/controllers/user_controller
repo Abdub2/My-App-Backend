@@ -55,4 +55,9 @@ class UserController < Sinatra::Base
         "There was an error saving your movie."
       end
     end
+
+    # get '/users/:id' do
+    #   users = User.find(params[:id])
+    #   users.movies.each do |movie|
+    # end
 end
