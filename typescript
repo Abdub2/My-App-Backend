@@ -1,0 +1,2179 @@
+Script started on 2024-05-03 22:43:28+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="153" LINES="12"]
+]0;user@abdubs-laptop: ~/Phase-3/My-App-Backend[01;32muser@abdubs-laptop[00m:[01;34m~/Phase-3/My-App-Backend[00m$ sev[Krver
+
+Command 'server' not found, but can be installed with:
+
+sudo apt install golang-golang-x-tools
+
+]0;user@abdubs-laptop: ~/Phase-3/My-App-Backend[01;32muser@abdubs-laptop[00m:[01;34m~/Phase-3/My-App-Backend[00m$ rails s
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+            [--skip-namespace]                             # Skip namespace (affects only isolated engines)
+                                                           # Default: false
+            [--skip-collision-check]                       # Skip collision check
+                                                           # Default: false
+  -r,       [--ruby=PATH]                                  # Path to the Ruby binary of your choice
+                                                           # Default: /usr/share/rvm/rubies/ruby-2.7.4/bin/ruby
+  -m,       [--template=TEMPLATE]                          # Path to some application template (can be a filesystem path or URL)
+  -d,       [--database=DATABASE]                          # Preconfigure for selected database (options: mysql/postgresql/sqlite3/oracle/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                                           # Default: sqlite3
+  -G,       [--skip-git]                                   # Skip .gitignore file
+                                                           # Default: false
+            [--skip-keeps]                                 # Skip source control .keep files
+                                                           # Default: false
+  -M,       [--skip-action-mailer]                         # Skip Action Mailer files
+                                                           # Default: false
+            [--skip-action-mailbox]                        # Skip Action Mailbox gem
+                                                           # Default: false
+            [--skip-action-text]                           # Skip Action Text gem
+                                                           # Default: false
+  -O,       [--skip-active-record]                         # Skip Active Record files
+                                                           # Default: false
+            [--skip-active-job]                            # Skip Active Job
+                                                           # Default: false
+            [--skip-active-storage]                        # Skip Active Storage files
+                                                           # Default: false
+  -C,       [--skip-action-cable]                          # Skip Action Cable files
+                                                           # Default: false
+  -A,       [--skip-asset-pipeline]                        # Indicates when to generate skip asset pipeline
+                                                           # Default: false
+  -a,       [--asset-pipeline=ASSET_PIPELINE]              # Choose your asset pipeline [options: sprockets (default), propshaft]
+                                                           # Default: sprockets
+  -J,       [--skip-javascript]                            # Skip JavaScript files
+                                                           # Default: false
+            [--skip-hotwire]                               # Skip Hotwire integration
+                                                           # Default: false
+            [--skip-jbuilder]                              # Skip jbuilder gem
+                                                           # Default: false
+  -T,       [--skip-test]                                  # Skip test files
+                                                           # Default: false
+            [--skip-system-test]                           # Skip system test files
+                                                           # Default: false
+            [--skip-bootsnap]                              # Skip bootsnap gem
+                                                           # Default: false
+            [--dev], [--no-dev], [--skip-dev]              # Set up the application with Gemfile pointing to your Rails checkout
+                                                           # Default: false
+            [--edge], [--no-edge], [--skip-edge]           # Set up the application with Gemfile pointing to Rails repository
+                                                           # Default: false
+  --master, [--main], [--no-main], [--skip-main]           # Set up the application with Gemfile pointing to Rails repository main branch
+                                                           # Default: false
+            [--rc=RC]                                      # Path to file containing extra configuration options for rails command
+            [--no-rc]                                      # Skip loading of extra configuration options from .railsrc file
+                                                           # Default: false
+            [--api], [--no-api], [--skip-api]              # Preconfigure smaller stack for API only apps
+                                                           # Default: false
+            [--minimal], [--no-minimal], [--skip-minimal]  # Preconfigure a minimal rails app
+  -j,       [--javascript=JAVASCRIPT]                      # Choose JavaScript approach [options: importmap (default), webpack, esbuild, rollup]
+                                                           # Default: importmap
+  -c,       [--css=CSS]                                    # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass] check https://github.com/rails/cssbundling-rails
+  -B,       [--skip-bundle]                                # Don't run bundle install
+                                                           # Default: false
+
+Runtime options:
+  -f, [--force]                                      # Overwrite files that already exist
+  -p, [--pretend], [--no-pretend], [--skip-pretend]  # Run but do not make any changes
+  -q, [--quiet], [--no-quiet], [--skip-quiet]        # Suppress status output
+  -s, [--skip], [--no-skip], [--skip-skip]           # Skip files that already exist
+
+Rails options:
+  -h, [--help], [--no-help], [--skip-help]           # Show this help message and quit
+  -v, [--version], [--no-version], [--skip-version]  # Show Rails version number and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory,
+    or in $XDG_CONFIG_HOME/rails/railsrc if XDG_CONFIG_HOME is set.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+]0;user@abdubs-laptop: ~/Phase-3/My-App-Backend[01;32muser@abdubs-laptop[00m:[01;34m~/Phase-3/My-App-Backend[00m$ bundle exec rake server
+[33m[DEPRECATED] `Bundler.with_clean_env` has been deprecated in favor of `Bundler.with_unbundled_env`. If you instead want the environment before bundler was originally loaded, use `Bundler.with_original_env` (called at /home/user/.ruby/gems/rerun-0.13.1/lib/rerun/notification.rb:74)[0m
+
+22:45:57 [rerun] My-app-backend launched
+22:45:57 [rerun] Rerun (84054) running My-app-backend (84100)
+2024-05-03 22:45:58 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-03 22:45:58 +0300 Maximum connections set to 1024
+2024-05-03 22:45:58 +0300 Listening on localhost:9292, CTRL+C to stop
+22:45:59 [rerun] Watching . for **/*.{rb,js,coffee,css,scss,sass,erb,html,haml,ru,yml,slim,md,feature,c,h} with Linux adapter
+127.0.0.1 - - [03/May/2024:22:46:21 +0300] "GET / HTTP/1.1" 404 515 0.0152
+127.0.0.1 - - [03/May/2024:22:46:21 +0300] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0333
+127.0.0.1 - - [03/May/2024:22:46:21 +0300] "GET /favicon.ico HTTP/1.1" 404 526 0.0031
+127.0.0.1 - - [03/May/2024:22:46:26 +0300] "GET /users HTTP/1.1" 404 520 0.0043
+D, [2024-05-03T22:46:36.570035 #84100] DEBUG -- :   [1m[35m (6.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-03T22:46:36.570460 #84100] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [03/May/2024:22:46:36 +0300] "GET /movies HTTP/1.1" 200 3687 0.0294
+127.0.0.1 - - [03/May/2024:22:47:12 +0300] "GET /auth/register HTTP/1.1" 404 533 0.0014
+127.0.0.1 - - [03/May/2024:22:47:15 +0300] "GET /auth HTTP/1.1" 404 519 0.0027
+D, [2024-05-03T22:47:26.070978 #84100] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [03/May/2024:22:47:26 +0300] "GET /user HTTP/1.1" 200 947 0.0080
+D, [2024-05-03T22:49:28.918451 #84100] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-03T22:49:28.929408 #84100] DEBUG -- :   [1m[36mUser Create (10.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "abd"], ["last_name", "12"], ["email", "k@gmail.com"], ["password", "123"]]
+D, [2024-05-03T22:49:28.932888 #84100] DEBUG -- :   [1m[36mTRANSACTION (2.7ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [03/May/2024:22:49:28 +0300] "POST /auth/register HTTP/1.1" 200 84 0.0216
+127.0.0.1 - - [03/May/2024:22:49:57 +0300] "OPTIONS /auth/register HTTP/1.1" 200 - 0.0029
+D, [2024-05-03T22:49:57.752499 #84100] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-03T22:49:57.753744 #84100] DEBUG -- :   [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "abdb"], ["last_name", "idn"], ["email", "kasnfask"], ["password", "123"]]
+D, [2024-05-03T22:49:57.765490 #84100] DEBUG -- :   [1m[36mTRANSACTION (11.2ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [03/May/2024:22:49:57 +0300] "POST /auth/register HTTP/1.1" 200 83 0.0194
+127.0.0.1 - - [03/May/2024:22:49:57 +0300] "OPTIONS /movies HTTP/1.1" 200 - 0.0011
+D, [2024-05-03T22:49:57.801954 #84100] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [03/May/2024:22:49:57 +0300] "GET /movies HTTP/1.1" 200 3687 0.0061
+^C
+22:50:32 [rerun] My-app-backend stopping
+2024-05-03 22:50:33 +0300 Stopping ...
+2024-05-03 22:50:33 +0300 Stopping ...
+
+]0;user@abdubs-laptop: ~/Phase-3/My-App-Backend[01;32muser@abdubs-laptop[00m:[01;34m~/Phase-3/My-App-Backend[00m$ bundle exec rake serverrails s[K
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+            [--skip-namespace]                             # Skip namespace (affects only isolated engines)
+                                                           # Default: false
+            [--skip-collision-check]                       # Skip collision check
+                                                           # Default: false
+  -r,       [--ruby=PATH]                                  # Path to the Ruby binary of your choice
+                                                           # Default: /usr/share/rvm/rubies/ruby-2.7.4/bin/ruby
+  -m,       [--template=TEMPLATE]                          # Path to some application template (can be a filesystem path or URL)
+  -d,       [--database=DATABASE]                          # Preconfigure for selected database (options: mysql/postgresql/sqlite3/oracle/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                                           # Default: sqlite3
+  -G,       [--skip-git]                                   # Skip .gitignore file
+                                                           # Default: false
+            [--skip-keeps]                                 # Skip source control .keep files
+                                                           # Default: false
+  -M,       [--skip-action-mailer]                         # Skip Action Mailer files
+                                                           # Default: false
+            [--skip-action-mailbox]                        # Skip Action Mailbox gem
+                                                           # Default: false
+            [--skip-action-text]                           # Skip Action Text gem
+                                                           # Default: false
+  -O,       [--skip-active-record]                         # Skip Active Record files
+                                                           # Default: false
+            [--skip-active-job]                            # Skip Active Job
+                                                           # Default: false
+            [--skip-active-storage]                        # Skip Active Storage files
+                                                           # Default: false
+  -C,       [--skip-action-cable]                          # Skip Action Cable files
+                                                           # Default: false
+  -A,       [--skip-asset-pipeline]                        # Indicates when to generate skip asset pipeline
+                                                           # Default: false
+  -a,       [--asset-pipeline=ASSET_PIPELINE]              # Choose your asset pipeline [options: sprockets (default), propshaft]
+                                                           # Default: sprockets
+  -J,       [--skip-javascript]                            # Skip JavaScript files
+                                                           # Default: false
+            [--skip-hotwire]                               # Skip Hotwire integration
+                                                           # Default: false
+            [--skip-jbuilder]                              # Skip jbuilder gem
+                                                           # Default: false
+  -T,       [--skip-test]                                  # Skip test files
+                                                           # Default: false
+            [--skip-system-test]                           # Skip system test files
+                                                           # Default: false
+            [--skip-bootsnap]                              # Skip bootsnap gem
+                                                           # Default: false
+            [--dev], [--no-dev], [--skip-dev]              # Set up the application with Gemfile pointing to your Rails checkout
+                                                           # Default: false
+            [--edge], [--no-edge], [--skip-edge]           # Set up the application with Gemfile pointing to Rails repository
+                                                           # Default: false
+  --master, [--main], [--no-main], [--skip-main]           # Set up the application with Gemfile pointing to Rails repository main branch
+                                                           # Default: false
+            [--rc=RC]                                      # Path to file containing extra configuration options for rails command
+            [--no-rc]                                      # Skip loading of extra configuration options from .railsrc file
+                                                           # Default: false
+            [--api], [--no-api], [--skip-api]              # Preconfigure smaller stack for API only apps
+                                                           # Default: false
+            [--minimal], [--no-minimal], [--skip-minimal]  # Preconfigure a minimal rails app
+  -j,       [--javascript=JAVASCRIPT]                      # Choose JavaScript approach [options: importmap (default), webpack, esbuild, rollup]
+                                                           # Default: importmap
+  -c,       [--css=CSS]                                    # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass] check https://github.com/rails/cssbundling-rails
+  -B,       [--skip-bundle]                                # Don't run bundle install
+                                                           # Default: false
+
+Runtime options:
+  -f, [--force]                                      # Overwrite files that already exist
+  -p, [--pretend], [--no-pretend], [--skip-pretend]  # Run but do not make any changes
+  -q, [--quiet], [--no-quiet], [--skip-quiet]        # Suppress status output
+  -s, [--skip], [--no-skip], [--skip-skip]           # Skip files that already exist
+
+Rails options:
+  -h, [--help], [--no-help], [--skip-help]           # Show this help message and quit
+  -v, [--version], [--no-version], [--skip-version]  # Show Rails version number and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory,
+    or in $XDG_CONFIG_HOME/rails/railsrc if XDG_CONFIG_HOME is set.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+]0;user@abdubs-laptop: ~/Phase-3/My-App-Backend[01;32muser@abdubs-laptop[00m:[01;34m~/Phase-3/My-App-Backend[00m$ rails sbundle exec rake server
+[33m[DEPRECATED] `Bundler.with_clean_env` has been deprecated in favor of `Bundler.with_unbundled_env`. If you instead want the environment before bundler was originally loaded, use `Bundler.with_original_env` (called at /home/user/.ruby/gems/rerun-0.13.1/lib/rerun/notification.rb:74)[0m
+
+02:19:14 [rerun] My-app-backend launched
+02:19:14 [rerun] Rerun (87905) running My-app-backend (87949)
+2024-05-04 02:19:15 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 02:19:15 +0300 Maximum connections set to 1024
+2024-05-04 02:19:15 +0300 Listening on localhost:9292, CTRL+C to stop
+02:19:16 [rerun] Watching . for **/*.{rb,js,coffee,css,scss,sass,erb,html,haml,ru,yml,slim,md,feature,c,h} with Linux adapter
+D, [2024-05-04T02:19:18.751792 #87949] DEBUG -- :   [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T02:19:18.753799 #87949] DEBUG -- :   [1m[36mMovie Load (1.6ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:19:18 +0300] "GET /movies HTTP/1.1" 200 3687 0.0527
+D, [2024-05-04T02:19:28.714304 #87949] DEBUG -- :   [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:19:28 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0109
+D, [2024-05-04T02:19:33.286830 #87949] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:19:33 +0300] "GET /search?query= HTTP/1.1" 200 3687 0.0323
+D, [2024-05-04T02:21:57.334734 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:21:57 +0300] "GET /movies HTTP/1.1" 200 3687 0.0028
+D, [2024-05-04T02:22:01.352428 #87949] DEBUG -- :   [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:22:01 +0300] "GET /movies HTTP/1.1" 200 3687 0.0146
+D, [2024-05-04T02:22:03.047531 #87949] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:22:03 +0300] "GET /movies HTTP/1.1" 200 3687 0.0055
+D, [2024-05-04T02:22:05.965781 #87949] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+2024-05-04 02:22:05 - TypeError - no implicit conversion of nil into String:
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `include?'
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `block (2 levels) in <class:MovieController>'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/query_methods.rb:269:in `select'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/query_methods.rb:269:in `select'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/querying.rb:22:in `select'
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `block in <class:MovieController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:986:in `forward'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1078:in `route_missing'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1027:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1023:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:02:22:06 +0300] "GET /search HTTP/1.1" 500 268347 0.0650
+D, [2024-05-04T02:22:11.742212 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+2024-05-04 02:22:11 - TypeError - no implicit conversion of nil into String:
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `include?'
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `block (2 levels) in <class:MovieController>'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/query_methods.rb:269:in `select'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/query_methods.rb:269:in `select'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/querying.rb:22:in `select'
+	/home/user/Phase-3/My-App-Backend/app/controllers/movie_controller.rb:42:in `block in <class:MovieController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `block in call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1769:in `synchronize'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1542:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:986:in `forward'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1078:in `route_missing'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1027:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1023:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:02:22:11 +0300] "GET /search HTTP/1.1" 500 268347 0.0675
+D, [2024-05-04T02:22:28.796771 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:22:28 +0300] "GET /movies HTTP/1.1" 200 3687 0.0048
+D, [2024-05-04T02:22:42.443785 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:22:42 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0030
+D, [2024-05-04T02:22:52.379196 #87949] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:22:52 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0018
+D, [2024-05-04T02:23:20.666286 #87949] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:23:20 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0059
+D, [2024-05-04T02:23:22.377591 #87949] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:23:22 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0057
+D, [2024-05-04T02:23:22.559128 #87949] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:23:22 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0055
+D, [2024-05-04T02:52:32.331558 #87949] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:52:32 +0300] "GET /movies HTTP/1.1" 200 3687 0.0022
+D, [2024-05-04T02:52:37.331445 #87949] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:52:37 +0300] "GET /movies HTTP/1.1" 200 3687 0.0026
+D, [2024-05-04T02:52:39.341168 #87949] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:52:39 +0300] "GET /movies HTTP/1.1" 200 3687 0.0092
+D, [2024-05-04T02:52:48.262132 #87949] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:52:48 +0300] "GET /movies HTTP/1.1" 200 3687 0.0065
+D, [2024-05-04T02:58:03.230061 #87949] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T02:58:03.230964 #87949] DEBUG -- :   [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "abdub"], ["last_name", "abdub"], ["email", "doyo@gmail.com"], ["password", "123"]]
+D, [2024-05-04T02:58:03.282750 #87949] DEBUG -- :   [1m[36mTRANSACTION (51.4ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:02:58:03 +0300] "POST /auth/register HTTP/1.1" 200 92 0.0802
+D, [2024-05-04T02:58:03.298561 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:58:03 +0300] "GET /movies HTTP/1.1" 200 3687 0.0052
+D, [2024-05-04T02:58:43.300187 #87949] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:02:58:43 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0028
+D, [2024-05-04T02:58:56.648798 #87949] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:02:58:56 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0059
+D, [2024-05-04T02:59:08.128129 #87949] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:02:59:08 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0048
+D, [2024-05-04T02:59:29.223624 #87949] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T02:59:29.224418 #87949] DEBUG -- :   [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "chui"], ["last_name", "doyo"], ["email", "king@gmail.com"], ["password", "123"]]
+D, [2024-05-04T02:59:29.236301 #87949] DEBUG -- :   [1m[36mTRANSACTION (11.5ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:02:59:29 +0300] "POST /auth/register HTTP/1.1" 200 90 0.0176
+D, [2024-05-04T02:59:29.271017 #87949] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:59:29 +0300] "GET /movies HTTP/1.1" 200 3687 0.0058
+D, [2024-05-04T02:59:31.097237 #87949] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:02:59:31 +0300] "GET /movies HTTP/1.1" 200 3687 0.0040
+D, [2024-05-04T02:59:42.553836 #87949] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:02:59:42 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0029
+D, [2024-05-04T02:59:56.149565 #87949] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:02:59:56 +0300] "GET /user HTTP/1.1" 200 1300 0.0085
+D, [2024-05-04T03:00:26.006894 #87949] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:00:26 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0053
+D, [2024-05-04T03:00:58.633511 #87949] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:00:58 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0021
+127.0.0.1 - - [04/May/2024:03:04:20 +0300] "OPTIONS /auth/login HTTP/1.1" 200 - 0.0006
+D, [2024-05-04T03:04:20.231557 #87949] DEBUG -- :   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:04:20 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0020
+D, [2024-05-04T03:51:42.567731 #87949] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:51:42 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0083
+D, [2024-05-04T03:52:31.682261 #87949] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:52:31 +0300] "GET /user HTTP/1.1" 200 1300 0.0063
+D, [2024-05-04T03:53:07.658246 #87949] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T03:53:07.659930 #87949] DEBUG -- :   [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "chui"], ["last_name", "doyo"], ["email", "king@gmail.com"], ["password", "123"]]
+D, [2024-05-04T03:53:07.672178 #87949] DEBUG -- :   [1m[36mTRANSACTION (11.6ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:03:53:07 +0300] "POST /auth/register HTTP/1.1" 200 90 0.0195
+D, [2024-05-04T03:53:07.713151 #87949] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:03:53:07 +0300] "GET /movies HTTP/1.1" 200 3687 0.0066
+03:54:04 [rerun] Change detected: 1 modified: user.rb
+2024-05-04 03:54:05 +0300 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+
+03:54:05 [rerun] My-app-backend restarted
+03:54:05 [rerun] Rerun (87905) running My-app-backend (92485)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/models/user.rb:3: syntax error, unexpected ':', expecting `end' ([1;4mSyntaxError[m[1m)[m
+[1m    validates :[m
+[1m              ^[m
+
+03:54:07 [rerun] My-app-backend Launch Failed
+03:54:16 [rerun] Change detected: 1 modified: user.rb
+
+03:54:16 [rerun] My-app-backend launched
+03:54:16 [rerun] Rerun (87905) running My-app-backend (92582)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/models/user.rb:4: syntax error, unexpected `end' ([1;4mSyntaxError[m[1m)[m
+
+03:54:18 [rerun] My-app-backend Launch Failed
+03:54:26 [rerun] Change detected: 1 modified: user.rb
+
+03:54:26 [rerun] My-app-backend launched
+03:54:26 [rerun] Rerun (87905) running My-app-backend (92688)
+2024-05-04 03:54:27 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 03:54:27 +0300 Maximum connections set to 1024
+2024-05-04 03:54:27 +0300 Listening on localhost:9292, CTRL+C to stop
+D, [2024-05-04T03:55:01.356505 #92688] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T03:55:01.381213 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T03:55:01.381431 #92688] DEBUG -- :   [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "king@gmail.com"], ["LIMIT", 1]]
+D, [2024-05-04T03:55:01.382352 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+127.0.0.1 - - [04/May/2024:03:55:01 +0300] "POST /auth/register HTTP/1.1" 200 92 0.0518
+D, [2024-05-04T03:55:01.416321 #92688] DEBUG -- :   [1m[36mMovie Load (1.9ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:03:55:01 +0300] "GET /movies HTTP/1.1" 200 3687 0.0380
+D, [2024-05-04T03:55:11.131148 #92688] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:03:55:11 +0300] "GET /user HTTP/1.1" 200 1391 0.0059
+D, [2024-05-04T03:56:05.497335 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:03:56:05 +0300] "GET /movies HTTP/1.1" 200 3687 0.0048
+D, [2024-05-04T03:56:22.494041 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T03:56:22.494302 #92688] DEBUG -- :   [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "king@gmail.com"], ["LIMIT", 1]]
+D, [2024-05-04T03:56:22.494448 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+127.0.0.1 - - [04/May/2024:03:56:22 +0300] "POST /auth/register HTTP/1.1" 200 92 0.0022
+D, [2024-05-04T03:56:22.511643 #92688] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:03:56:22 +0300] "GET /movies HTTP/1.1" 200 3687 0.0048
+127.0.0.1 - - [04/May/2024:04:32:38 +0300] "OPTIONS /auth/register HTTP/1.1" 200 - 0.0023
+D, [2024-05-04T04:32:38.336525 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:32:38.337343 #92688] DEBUG -- :   [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "abdub@gmail.com"], ["LIMIT", 1]]
+D, [2024-05-04T04:32:38.337921 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+127.0.0.1 - - [04/May/2024:04:32:38 +0300] "POST /auth/register HTTP/1.1" 200 94 0.0075
+127.0.0.1 - - [04/May/2024:04:32:38 +0300] "OPTIONS /movies HTTP/1.1" 200 - 0.0019
+D, [2024-05-04T04:32:38.375893 #92688] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:32:38 +0300] "GET /movies HTTP/1.1" 200 3687 0.0056
+127.0.0.1 - - [04/May/2024:04:33:07 +0300] "OPTIONS /auth/login HTTP/1.1" 200 - 0.0024
+D, [2024-05-04T04:33:07.484938 #92688] DEBUG -- :   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:04:33:07 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0056
+D, [2024-05-04T04:33:14.690003 #92688] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:04:33:14 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0062
+D, [2024-05-04T04:33:34.466778 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:33:34.467501 #92688] DEBUG -- :   [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "abdub@gmail.com"], ["LIMIT", 1]]
+D, [2024-05-04T04:33:34.467988 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+127.0.0.1 - - [04/May/2024:04:33:34 +0300] "POST /auth/register HTTP/1.1" 200 93 0.0072
+D, [2024-05-04T04:33:34.503211 #92688] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:33:34 +0300] "GET /movies HTTP/1.1" 200 3687 0.0061
+127.0.0.1 - - [04/May/2024:04:34:32 +0300] "OPTIONS /search?query=endgame HTTP/1.1" 200 - 0.0028
+D, [2024-05-04T04:34:32.216785 #92688] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:34:32 +0300] "GET /search?query=endgame HTTP/1.1" 200 2 0.0019
+127.0.0.1 - - [04/May/2024:04:34:40 +0300] "OPTIONS /search?query= HTTP/1.1" 200 - 0.0011
+D, [2024-05-04T04:34:40.259358 #92688] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:34:40 +0300] "GET /search?query= HTTP/1.1" 200 3687 0.0052
+127.0.0.1 - - [04/May/2024:04:34:41 +0300] "OPTIONS /search?query=red HTTP/1.1" 200 - 0.0029
+D, [2024-05-04T04:34:41.618504 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:34:41 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0069
+127.0.0.1 - - [04/May/2024:04:34:51 +0300] "OPTIONS /create HTTP/1.1" 200 - 0.0028
+D, [2024-05-04T04:34:51.594285 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:34:51.604677 #92688] DEBUG -- :   [1m[36mMovie Create (9.9ms)[0m  [1m[32mINSERT INTO "movies" ("title", "description", "movie_url", "originally_fetched") VALUES (?, ?, ?, ?)[0m  [["title", "nice"], ["description", "31412"], ["movie_url", "41324"], ["originally_fetched", 0]]
+D, [2024-05-04T04:34:51.607650 #92688] DEBUG -- :   [1m[36mTRANSACTION (2.3ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:04:34:51 +0300] "POST /create HTTP/1.1" 200 120 0.0203
+D, [2024-05-04T04:34:51.626817 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:34:51 +0300] "GET /movies HTTP/1.1" 200 3808 0.0061
+127.0.0.1 - - [04/May/2024:04:35:00 +0300] "OPTIONS /movies/destroy/16 HTTP/1.1" 200 - 0.0029
+D, [2024-05-04T04:35:00.648711 #92688] DEBUG -- :   [1m[36mMovie Load (0.7ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+D, [2024-05-04T04:35:00.650660 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:35:00.651812 #92688] DEBUG -- :   [1m[36mMovie Destroy (0.7ms)[0m  [1m[31mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 16]]
+D, [2024-05-04T04:35:00.704644 #92688] DEBUG -- :   [1m[36mTRANSACTION (52.2ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:04:35:00 +0300] "DELETE /movies/destroy/16 HTTP/1.1" 200 - 0.0705
+D, [2024-05-04T04:37:58.641542 #92688] DEBUG -- :   [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:37:58 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0064
+D, [2024-05-04T04:37:59.431715 #92688] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:37:59 +0300] "GET /search?query=red HTTP/1.1" 200 2 0.0066
+D, [2024-05-04T04:38:10.689985 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:38:10.691645 #92688] DEBUG -- :   [1m[36mMovie Create (0.9ms)[0m  [1m[32mINSERT INTO "movies" ("title", "description", "movie_url", "originally_fetched") VALUES (?, ?, ?, ?)[0m  [["title", "dsaf"], ["description", "fa"], ["movie_url", "fas"], ["originally_fetched", 0]]
+D, [2024-05-04T04:38:10.704135 #92688] DEBUG -- :   [1m[36mTRANSACTION (11.8ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:04:38:10 +0300] "POST /create HTTP/1.1" 200 115 0.0217
+D, [2024-05-04T04:38:10.742966 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:38:10 +0300] "GET /movies HTTP/1.1" 200 3803 0.0057
+D, [2024-05-04T04:40:30.264368 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:40:30 +0300] "GET /movies HTTP/1.1" 200 3803 0.0038
+D, [2024-05-04T04:40:58.047956 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:40:58 +0300] "GET /movies HTTP/1.1" 200 3803 0.0057
+D, [2024-05-04T04:41:02.168390 #92688] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:02 +0300] "GET /movies HTTP/1.1" 200 3803 0.0040
+127.0.0.1 - - [04/May/2024:04:41:10 +0300] "OPTIONS /movies/update/17 HTTP/1.1" 200 - 0.0035
+D, [2024-05-04T04:41:10.827355 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+D, [2024-05-04T04:41:10.830579 #92688] DEBUG -- :   [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T04:41:10.831502 #92688] DEBUG -- :   [1m[36mMovie Update (0.5ms)[0m  [1m[33mUPDATE "movies" SET "title" = ?, "year" = ?, "description" = ?, "movie_url" = ? WHERE "movies"."id" = ?[0m  [["title", "asdfad"], ["year", 0], ["description", "fads"], ["movie_url", "adfdsaf"], ["id", 17]]
+D, [2024-05-04T04:41:10.843456 #92688] DEBUG -- :   [1m[36mTRANSACTION (11.4ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:04:41:10 +0300] "PUT /movies/update/17 HTTP/1.1" 200 34 0.0277
+D, [2024-05-04T04:41:10.860300 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:10 +0300] "GET /movies HTTP/1.1" 200 3808 0.0061
+D, [2024-05-04T04:41:42.364110 #92688] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:42 +0300] "GET /search?query=Red HTTP/1.1" 200 310 0.0020
+D, [2024-05-04T04:41:51.974378 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:51 +0300] "GET /search?query=Avenger HTTP/1.1" 200 314 0.0024
+D, [2024-05-04T04:41:54.949790 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:54 +0300] "GET /search?query=Aveng HTTP/1.1" 200 314 0.0064
+D, [2024-05-04T04:41:56.917123 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:41:56 +0300] "GET /search?query= HTTP/1.1" 200 3808 0.0093
+D, [2024-05-04T04:42:01.005032 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:42:01 +0300] "GET /search?query=Spe HTTP/1.1" 200 284 0.0065
+D, [2024-05-04T04:42:04.316531 #92688] DEBUG -- :   [1m[36mMovie Load (0.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:42:04 +0300] "GET /search?query= HTTP/1.1" 200 3808 0.0131
+D, [2024-05-04T04:42:41.262784 #92688] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:04:42:41 +0300] "GET /movies HTTP/1.1" 200 3808 0.0058
+04:44:14 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:16 [rerun] My-app-backend restarted
+04:44:16 [rerun] Rerun (87905) running My-app-backend (97304)
+2024-05-04 04:44:16 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:44:16 +0300 Maximum connections set to 1024
+2024-05-04 04:44:16 +0300 Listening on localhost:9292, CTRL+C to stop
+04:44:21 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:21 [rerun] My-app-backend restarted
+04:44:21 [rerun] Rerun (87905) running My-app-backend (97374)
+[1mTraceback[m (most recent call last):
+	30: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	29: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	28: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	27: from /home/user/.ruby/bin/rackup:23:in `load'
+	26: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	25: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	24: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	23: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	22: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	21: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	20: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	19: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	14: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	13: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	12: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	11: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	10: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 9: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 8: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+	 7: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require'
+	 6: from /home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:1:in `<top (required)>'
+	 5: from /home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:59:in `<class:UserController>'
+	 4: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1434:in `delete'
+	 3: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1644:in `route'
+	 2: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1671:in `compile!'
+	 1: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1655:in `generate_method'
+/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1655:in `define_method': [1mtried to create Proc object without a block ([1;4mArgumentError[m[1m)[m
+
+04:44:24 [rerun] My-app-backend Launch Failed
+04:44:28 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:28 [rerun] My-app-backend launched
+04:44:28 [rerun] Rerun (87905) running My-app-backend (97468)
+[1mTraceback[m (most recent call last):
+	30: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	29: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	28: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	27: from /home/user/.ruby/bin/rackup:23:in `load'
+	26: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	25: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	24: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	23: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	22: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	21: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	20: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	19: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	14: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	13: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	12: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	11: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	10: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 9: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 8: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+	 7: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require'
+	 6: from /home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:1:in `<top (required)>'
+	 5: from /home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:59:in `<class:UserController>'
+	 4: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1434:in `delete'
+	 3: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1644:in `route'
+	 2: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1671:in `compile!'
+	 1: from /home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1655:in `generate_method'
+/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1655:in `define_method': [1mtried to create Proc object without a block ([1;4mArgumentError[m[1m)[m
+
+04:44:30 [rerun] My-app-backend Launch Failed
+04:44:36 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:36 [rerun] My-app-backend launched
+04:44:36 [rerun] Rerun (87905) running My-app-backend (97565)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:65: syntax error, unexpected `end' ([1;4mSyntaxError[m[1m)[m
+
+04:44:38 [rerun] My-app-backend Launch Failed
+04:44:42 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:42 [rerun] My-app-backend launched
+04:44:42 [rerun] Rerun (87905) running My-app-backend (97655)
+2024-05-04 04:44:43 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:44:43 +0300 Maximum connections set to 1024
+2024-05-04 04:44:43 +0300 Listening on localhost:9292, CTRL+C to stop
+04:44:54 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:54 [rerun] My-app-backend restarted
+04:44:54 [rerun] Rerun (87905) running My-app-backend (97729)
+2024-05-04 04:44:55 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:44:55 +0300 Maximum connections set to 1024
+2024-05-04 04:44:55 +0300 Listening on localhost:9292, CTRL+C to stop
+04:44:57 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:44:58 [rerun] My-app-backend restarted
+04:44:58 [rerun] Rerun (87905) running My-app-backend (97793)
+2024-05-04 04:44:59 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:44:59 +0300 Maximum connections set to 1024
+2024-05-04 04:44:59 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:04 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:05 [rerun] My-app-backend restarted
+04:45:05 [rerun] Rerun (87905) running My-app-backend (97872)
+2024-05-04 04:45:06 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:45:06 +0300 Maximum connections set to 1024
+2024-05-04 04:45:06 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:08 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:09 [rerun] My-app-backend restarted
+04:45:09 [rerun] Rerun (87905) running My-app-backend (97936)
+2024-05-04 04:45:10 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:45:10 +0300 Maximum connections set to 1024
+2024-05-04 04:45:10 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:12 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:13 [rerun] My-app-backend restarted
+04:45:13 [rerun] Rerun (87905) running My-app-backend (98003)
+2024-05-04 04:45:14 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:45:14 +0300 Maximum connections set to 1024
+2024-05-04 04:45:14 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:16 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:17 [rerun] My-app-backend restarted
+04:45:17 [rerun] Rerun (87905) running My-app-backend (98070)
+2024-05-04 04:45:18 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:45:18 +0300 Maximum connections set to 1024
+2024-05-04 04:45:18 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:38 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:39 [rerun] My-app-backend restarted
+04:45:39 [rerun] Rerun (87905) running My-app-backend (98146)
+2024-05-04 04:45:40 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 04:45:40 +0300 Maximum connections set to 1024
+2024-05-04 04:45:40 +0300 Listening on localhost:9292, CTRL+C to stop
+04:45:54 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:55 [rerun] My-app-backend restarted
+04:45:55 [rerun] Rerun (87905) running My-app-backend (98245)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:70: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:45:57 [rerun] My-app-backend Launch Failed
+04:45:58 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:45:58 [rerun] My-app-backend launched
+04:45:58 [rerun] Rerun (87905) running My-app-backend (98324)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:70: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:00 [rerun] My-app-backend Launch Failed
+04:46:09 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:09 [rerun] My-app-backend launched
+04:46:09 [rerun] Rerun (87905) running My-app-backend (98433)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:70: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:11 [rerun] My-app-backend Launch Failed
+04:46:21 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:21 [rerun] My-app-backend launched
+04:46:21 [rerun] Rerun (87905) running My-app-backend (98545)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:70: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:23 [rerun] My-app-backend Launch Failed
+04:46:27 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:27 [rerun] My-app-backend launched
+04:46:27 [rerun] Rerun (87905) running My-app-backend (98627)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:70: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:29 [rerun] My-app-backend Launch Failed
+04:46:35 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:35 [rerun] My-app-backend launched
+04:46:35 [rerun] Rerun (87905) running My-app-backend (98742)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:71: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:37 [rerun] My-app-backend Launch Failed
+04:46:41 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:41 [rerun] My-app-backend launched
+04:46:41 [rerun] Rerun (87905) running My-app-backend (98823)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:71: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:43 [rerun] My-app-backend Launch Failed
+04:46:44 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:44 [rerun] My-app-backend launched
+04:46:44 [rerun] Rerun (87905) running My-app-backend (98903)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:71: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:46 [rerun] My-app-backend Launch Failed
+04:46:48 [rerun] Change detected: 1 modified: user_controller.rb
+
+04:46:48 [rerun] My-app-backend launched
+04:46:48 [rerun] Rerun (87905) running My-app-backend (98983)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:71: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+04:46:50 [rerun] My-app-backend Launch Failed
+05:05:11 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:05:11 [rerun] My-app-backend launched
+05:05:11 [rerun] Rerun (87905) running My-app-backend (99380)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:66: syntax error, unexpected ']', expecting `end' ([1;4mSyntaxError[m[1m)[m
+[1m  }.to_json]][m
+[1m            ^[m
+
+05:05:13 [rerun] My-app-backend Launch Failed
+05:05:15 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:05:15 [rerun] My-app-backend launched
+05:05:15 [rerun] Rerun (87905) running My-app-backend (99464)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:73: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+05:05:17 [rerun] My-app-backend Launch Failed
+05:05:18 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:05:18 [rerun] My-app-backend launched
+05:05:18 [rerun] Rerun (87905) running My-app-backend (99533)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:73: syntax error, unexpected end-of-input, expecting `end' ([1;4mSyntaxError[m[1m)[m
+
+05:05:20 [rerun] My-app-backend Launch Failed
+05:05:46 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:05:46 [rerun] My-app-backend launched
+05:05:46 [rerun] Rerun (87905) running My-app-backend (99634)
+2024-05-04 05:05:47 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 05:05:47 +0300 Maximum connections set to 1024
+2024-05-04 05:05:47 +0300 Listening on localhost:9292, CTRL+C to stop
+05:05:49 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:05:50 [rerun] My-app-backend restarted
+05:05:50 [rerun] Rerun (87905) running My-app-backend (99702)
+2024-05-04 05:05:50 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 05:05:50 +0300 Maximum connections set to 1024
+2024-05-04 05:05:50 +0300 Listening on localhost:9292, CTRL+C to stop
+D, [2024-05-04T05:09:52.649973 #99702] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T05:09:52.650507 #99702] DEBUG -- :   [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:05:09:52 +0300] "GET /movies HTTP/1.1" 200 3808 0.0533
+D, [2024-05-04T05:10:19.717613 #99702] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:05:10:19 +0300] "GET /movies HTTP/1.1" 200 3808 0.0078
+D, [2024-05-04T05:20:11.756418 #99702] DEBUG -- :   [1m[36mMovie Load (4.4ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:05:20:11 +0300] "GET /movies HTTP/1.1" 200 3808 0.0078
+D, [2024-05-04T05:20:20.158005 #99702] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:05:20:20 +0300] "GET /user HTTP/1.1" 200 1391 0.0078
+D, [2024-05-04T05:20:35.173674 #99702] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:05:20:35 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0064
+05:25:40 [rerun] Change detected: 1 modified: user_controller.rb
+
+05:25:41 [rerun] My-app-backend restarted
+05:25:41 [rerun] Rerun (87905) running My-app-backend (100876)
+2024-05-04 05:25:42 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 05:25:42 +0300 Maximum connections set to 1024
+2024-05-04 05:25:42 +0300 Listening on localhost:9292, CTRL+C to stop
+127.0.0.1 - - [04/May/2024:05:26:12 +0300] "POST /auth/login HTTP/1.1" 404 531 0.0204
+127.0.0.1 - - [04/May/2024:05:26:24 +0300] "POST /auth/login HTTP/1.1" 404 531 0.0059
+05:27:10 [rerun] Change detected: 1 modified: user_controller.rb
+2024-05-04 05:27:10 +0300 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+
+05:27:10 [rerun] My-app-backend restarted
+05:27:10 [rerun] Rerun (87905) running My-app-backend (101259)
+2024-05-04 05:27:11 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 05:27:11 +0300 Maximum connections set to 1024
+2024-05-04 05:27:11 +0300 Listening on localhost:9292, CTRL+C to stop
+127.0.0.1 - - [04/May/2024:05:27:41 +0300] "OPTIONS /auth/login HTTP/1.1" 200 - 0.0077
+D, [2024-05-04T05:27:41.204981 #101259] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T05:27:41.205448 #101259] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:05:27:41 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0498
+127.0.0.1 - - [04/May/2024:05:41:51 +0300] "OPTIONS /auth/register HTTP/1.1" 200 - 0.0057
+D, [2024-05-04T05:41:51.182974 #101259] DEBUG -- :   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+D, [2024-05-04T05:41:51.183742 #101259] DEBUG -- :   [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "abdubd@gmail.com"], ["LIMIT", 1]]
+D, [2024-05-04T05:41:51.186172 #101259] DEBUG -- :   [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "password") VALUES (?, ?, ?, ?)[0m  [["first_name", "adbub"], ["last_name", "abd"], ["email", "abdubd@gmail.com"], ["password", "123"]]
+D, [2024-05-04T05:41:51.192656 #101259] DEBUG -- :   [1m[36mTRANSACTION (5.5ms)[0m  [1m[36mcommit transaction[0m
+127.0.0.1 - - [04/May/2024:05:41:51 +0300] "POST /auth/register HTTP/1.1" 200 92 0.0876
+D, [2024-05-04T05:41:51.234955 #101259] DEBUG -- :   [1m[36mMovie Load (0.3ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:05:41:51 +0300] "GET /movies HTTP/1.1" 200 3808 0.0190
+D, [2024-05-04T19:53:17.707668 #101259] DEBUG -- :   [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+127.0.0.1 - - [04/May/2024:19:53:17 +0300] "GET /movies HTTP/1.1" 200 3808 0.0051
+127.0.0.1 - - [04/May/2024:19:54:19 +0300] "OPTIONS /auth/login HTTP/1.1" 200 - 0.0025
+D, [2024-05-04T19:54:19.317051 #101259] DEBUG -- :   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:19:54:19 +0300] "POST /auth/login HTTP/1.1" 200 39 0.0065
+19:55:14 [rerun] Change detected: 1 modified: user_controller.rb
+2024-05-04 19:55:15 +0300 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+
+19:55:15 [rerun] My-app-backend restarted
+19:55:15 [rerun] Rerun (87905) running My-app-backend (110940)
+2024-05-04 19:55:16 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:55:16 +0300 Maximum connections set to 1024
+2024-05-04 19:55:16 +0300 Listening on localhost:9292, CTRL+C to stop
+19:55:21 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:55:22 [rerun] My-app-backend restarted
+19:55:22 [rerun] Rerun (87905) running My-app-backend (111036)
+2024-05-04 19:55:23 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:55:23 +0300 Maximum connections set to 1024
+2024-05-04 19:55:23 +0300 Listening on localhost:9292, CTRL+C to stop
+D, [2024-05-04T19:55:35.160174 #111036] DEBUG -- :   [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T19:55:35.160745 #111036] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+2024-05-04 19:55:35 - NameError - undefined local variable or method `u' for #<UserController:0x000055ce8d9d8328>:
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39:in `block (2 levels) in <class:UserController>'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/finder_methods.rb:68:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/finder_methods.rb:68:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/querying.rb:22:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/core.rb:324:in `find'
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39:in `block in <class:UserController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:19:55:35 +0300] "POST /auth/login HTTP/1.1" 500 195551 0.0912
+D, [2024-05-04T19:55:40.847452 #111036] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+2024-05-04 19:55:40 - NameError - undefined local variable or method `u' for #<UserController:0x000055ce8f958770>:
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39:in `block (2 levels) in <class:UserController>'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/delegation.rb:88:in `each'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/finder_methods.rb:68:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/relation/finder_methods.rb:68:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/querying.rb:22:in `find'
+	/home/user/.ruby/gems/activerecord-6.1.4/lib/active_record/core.rb:324:in `find'
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39:in `block in <class:UserController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:19:55:40 +0300] "POST /auth/login HTTP/1.1" 500 195551 0.0639
+19:56:08 [rerun] Change detected: 1 modified: user_controller.rb
+2024-05-04 19:56:09 +0300 Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+
+19:56:09 [rerun] My-app-backend restarted
+19:56:09 [rerun] Rerun (87905) running My-app-backend (111248)
+2024-05-04 19:56:09 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:56:09 +0300 Maximum connections set to 1024
+2024-05-04 19:56:09 +0300 Listening on localhost:9292, CTRL+C to stop
+19:58:31 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:31 [rerun] My-app-backend restarted
+19:58:31 [rerun] Rerun (87905) running My-app-backend (111534)
+2024-05-04 19:58:32 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:58:32 +0300 Maximum connections set to 1024
+2024-05-04 19:58:32 +0300 Listening on localhost:9292, CTRL+C to stop
+19:58:36 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:37 [rerun] My-app-backend restarted
+19:58:37 [rerun] Rerun (87905) running My-app-backend (111615)
+2024-05-04 19:58:38 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:58:38 +0300 Maximum connections set to 1024
+2024-05-04 19:58:38 +0300 Listening on localhost:9292, CTRL+C to stop
+19:58:40 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:41 [rerun] My-app-backend restarted
+19:58:41 [rerun] Rerun (87905) running My-app-backend (111668)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ']', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email] == email && u[:password] == ...[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m...l && u[:password] == password }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:41: syntax error, unexpected tLAMBEG[m
+[1m        {message: "Login success!"}.to...[m
+[1m        ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:41: syntax error, unexpected '}', expecting `end'[m
+[1m...    {message: "Login success!"}.to_json[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:43: syntax error, unexpected tLAMBEG[m
+[1m        {message: "Invalid email or pa...[m
+[1m        ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:43: syntax error, unexpected '}', expecting `end'[m
+[1m...e: "Invalid email or password"}.to_json[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:49: syntax error, unexpected `do' for lambda, expecting end-of-input[m
+[1m    post '/users/:id/movies' do[m
+[1m                             ^~[m
+
+19:58:43 [rerun] My-app-backend Launch Failed
+19:58:44 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:44 [rerun] My-app-backend launched
+19:58:44 [rerun] Rerun (87905) running My-app-backend (111747)
+2024-05-04 19:58:44 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:58:44 +0300 Maximum connections set to 1024
+2024-05-04 19:58:44 +0300 Listening on localhost:9292, CTRL+C to stop
+19:58:50 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:51 [rerun] My-app-backend restarted
+19:58:51 [rerun] Rerun (87905) running My-app-backend (111818)
+2024-05-04 19:58:51 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:58:51 +0300 Maximum connections set to 1024
+2024-05-04 19:58:51 +0300 Listening on localhost:9292, CTRL+C to stop
+19:58:54 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:55 [rerun] My-app-backend restarted
+19:58:55 [rerun] Rerun (87905) running My-app-backend (111884)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[]  && u[:password] ==...[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m...  && u[:password] == password }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:58:57 [rerun] My-app-backend Launch Failed
+19:58:58 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:58:58 [rerun] My-app-backend launched
+19:58:58 [rerun] Rerun (87905) running My-app-backend (111964)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:usename]  && u[:pass...[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m...  && u[:password] == password }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:00 [rerun] My-app-backend Launch Failed
+19:59:01 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:01 [rerun] My-app-backend launched
+19:59:01 [rerun] Rerun (87905) running My-app-backend (112017)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:usename]  && u[:pass...[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m...  && u[:password] == password }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:03 [rerun] My-app-backend Launch Failed
+19:59:04 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:04 [rerun] My-app-backend launched
+19:59:04 [rerun] Rerun (87905) running My-app-backend (112096)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:email]  && u[:passwo...[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m...  && u[:password] == password }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:06 [rerun] My-app-backend Launch Failed
+19:59:18 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:19 [rerun] My-app-backend launched
+19:59:19 [rerun] Rerun (87905) running My-app-backend (112214)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:email]   }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected '}', expecting `end'[m
+[1m..._by{ :email: params[:email]   }[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:21 [rerun] My-app-backend Launch Failed
+19:59:22 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:22 [rerun] My-app-backend launched
+19:59:22 [rerun] Rerun (87905) running My-app-backend (112295)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:email]  )[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ')', expecting `end'[m
+[1m...d_by{ :email: params[:email]  )[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:24 [rerun] My-app-backend Launch Failed
+19:59:25 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:25 [rerun] My-app-backend launched
+19:59:25 [rerun] Rerun (87905) running My-app-backend (112363)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting '}' ([1;4mSyntaxError[m[1m)[m
+[1m...   user = User.find_by{ :email: params[:email])[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ')', expecting `end'[m
+[1m...ind_by{ :email: params[:email])[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:27 [rerun] My-app-backend Launch Failed
+19:59:28 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:28 [rerun] My-app-backend launched
+19:59:28 [rerun] Rerun (87905) running My-app-backend (112425)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ':', expecting ')' ([1;4mSyntaxError[m[1m)[m
+[1m...    user = User.find_by(:email: params[:email])[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:39: syntax error, unexpected ')', expecting `end'[m
+[1m...find_by(:email: params[:email])[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:30 [rerun] My-app-backend Launch Failed
+19:59:31 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:31 [rerun] My-app-backend launched
+19:59:31 [rerun] Rerun (87905) running My-app-backend (112505)
+2024-05-04 19:59:32 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:59:32 +0300 Maximum connections set to 1024
+2024-05-04 19:59:32 +0300 Listening on localhost:9292, CTRL+C to stop
+19:59:34 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:35 [rerun] My-app-backend restarted
+19:59:35 [rerun] Rerun (87905) running My-app-backend (112560)
+2024-05-04 19:59:36 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:59:36 +0300 Maximum connections set to 1024
+2024-05-04 19:59:36 +0300 Listening on localhost:9292, CTRL+C to stop
+19:59:44 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:45 [rerun] My-app-backend restarted
+19:59:45 [rerun] Rerun (87905) running My-app-backend (112644)
+2024-05-04 19:59:46 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 19:59:46 +0300 Maximum connections set to 1024
+2024-05-04 19:59:46 +0300 Listening on localhost:9292, CTRL+C to stop
+19:59:50 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:51 [rerun] My-app-backend restarted
+19:59:51 [rerun] Rerun (87905) running My-app-backend (112724)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:40: syntax error, unexpected ')' ([1;4mSyntaxError[m[1m)[m
+[1m... if user.authenticate(params: )[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:42: else without rescue is useless[m
+[1m      else[m
+[1m      ^~~~[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:53 [rerun] My-app-backend Launch Failed
+19:59:54 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:55 [rerun] My-app-backend launched
+19:59:55 [rerun] Rerun (87905) running My-app-backend (112788)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each'
+	 2: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:98:in `block in require_all'
+	 1: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `__require'
+/home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:208:in `require': [1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:40: syntax error, unexpected ']', expecting literal content or terminator or tSTRING_DBEG or tSTRING_DVAR ([1;4mSyntaxError[m[1m)[m
+[1m... if user.authenticate(params[:])[m
+[1m...                              ^[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:42: else without rescue is useless[m
+[1m      else[m
+[1m      ^~~~[m
+[1m/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:74: syntax error, unexpected `end', expecting end-of-input[m
+
+19:59:57 [rerun] My-app-backend Launch Failed
+19:59:59 [rerun] Change detected: 1 modified: user_controller.rb
+
+19:59:59 [rerun] My-app-backend launched
+19:59:59 [rerun] Rerun (87905) running My-app-backend (112871)
+2024-05-04 20:00:00 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:00 +0300 Maximum connections set to 1024
+2024-05-04 20:00:00 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:07 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:07 [rerun] My-app-backend restarted
+20:00:07 [rerun] Rerun (87905) running My-app-backend (112972)
+2024-05-04 20:00:08 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:08 +0300 Maximum connections set to 1024
+2024-05-04 20:00:08 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:11 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:11 [rerun] My-app-backend restarted
+20:00:11 [rerun] Rerun (87905) running My-app-backend (113034)
+2024-05-04 20:00:12 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:12 +0300 Maximum connections set to 1024
+2024-05-04 20:00:12 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:16 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:16 [rerun] My-app-backend restarted
+20:00:16 [rerun] Rerun (87905) running My-app-backend (113098)
+2024-05-04 20:00:17 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:17 +0300 Maximum connections set to 1024
+2024-05-04 20:00:17 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:23 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:24 [rerun] My-app-backend restarted
+20:00:24 [rerun] Rerun (87905) running My-app-backend (113173)
+2024-05-04 20:00:25 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:25 +0300 Maximum connections set to 1024
+2024-05-04 20:00:25 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:27 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:28 [rerun] My-app-backend restarted
+20:00:28 [rerun] Rerun (87905) running My-app-backend (113236)
+2024-05-04 20:00:29 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:29 +0300 Maximum connections set to 1024
+2024-05-04 20:00:29 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:31 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:32 [rerun] My-app-backend restarted
+20:00:32 [rerun] Rerun (87905) running My-app-backend (113303)
+2024-05-04 20:00:33 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:33 +0300 Maximum connections set to 1024
+2024-05-04 20:00:33 +0300 Listening on localhost:9292, CTRL+C to stop
+20:00:46 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:00:46 [rerun] My-app-backend restarted
+20:00:46 [rerun] Rerun (87905) running My-app-backend (113376)
+2024-05-04 20:00:47 +0300 Thin web server (v1.8.1 codename Infinite Smoothie)
+2024-05-04 20:00:47 +0300 Maximum connections set to 1024
+2024-05-04 20:00:47 +0300 Listening on localhost:9292, CTRL+C to stop
+D, [2024-05-04T20:01:04.081405 #113376] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2024-05-04T20:01:04.090864 #113376] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+2024-05-04 20:01:04 - NoMethodError - undefined method `authenticate' for nil:NilClass:
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:40:in `block in <class:UserController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:20:01:04 +0300] "POST /auth/login HTTP/1.1" 500 176330 0.0615
+D, [2024-05-04T20:17:48.887408 #113376] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+127.0.0.1 - - [04/May/2024:20:17:48 +0300] "GET /user HTTP/1.1" 200 1484 0.0100
+D, [2024-05-04T20:17:58.569369 #113376] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+2024-05-04 20:17:58 - NoMethodError - undefined method `authenticate' for nil:NilClass:
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:40:in `block in <class:UserController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:20:17:58 +0300] "POST /auth/login HTTP/1.1" 500 180338 0.0860
+D, [2024-05-04T20:18:16.515438 #113376] DEBUG -- :   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+2024-05-04 20:18:16 - NoMethodError - undefined method `authenticate' for nil:NilClass:
+	/home/user/Phase-3/My-App-Backend/app/controllers/user_controller.rb:40:in `block in <class:UserController>'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1675:in `block in compile!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (3 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1032:in `route_eval'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1013:in `block (2 levels) in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1061:in `block in process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1059:in `process_route'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1011:in `block in route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `each'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1008:in `route!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1129:in `block in dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1124:in `dispatch!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `block in call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `block in invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `catch'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1101:in `invoke'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:939:in `call!'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:929:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/json_csrf.rb:26:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/base.rb:50:in `call'
+	/home/user/.ruby/gems/rack-protection-2.1.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/null_logger.rb:11:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/head.rb:12:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/show_exceptions.rb:22:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:216:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:1991:in `call'
+	/home/user/.ruby/gems/rack-cors-1.1.1/lib/rack/cors.rb:100:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:50:in `_call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/lint.rb:38:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/show_exceptions.rb:23:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/common_logger.rb:38:in `call'
+	/home/user/.ruby/gems/sinatra-2.1.0/lib/sinatra/base.rb:253:in `call'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/content_length.rb:17:in `call'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:86:in `block in pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `catch'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:84:in `pre_process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:53:in `process'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/connection.rb:39:in `receive_data'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	/home/user/.ruby/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/backends/base.rb:75:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/thin/server.rb:162:in `start'
+	/home/user/.ruby/gems/thin-1.8.1/lib/rack/handler/thin.rb:22:in `run'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:327:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	/home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	/home/user/.ruby/bin/rackup:23:in `load'
+	/home/user/.ruby/bin/rackup:23:in `<main>'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	/home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+127.0.0.1 - - [04/May/2024:20:18:16 +0300] "POST /auth/login HTTP/1.1" 500 180338 0.0435
+20:39:02 [rerun] Change detected: 1 modified: user_controller.rb
+
+20:39:02 [rerun] My-app-backend restarted
+20:39:02 [rerun] Rerun (87905) running My-app-backend (115964)
+[1mTraceback[m (most recent call last):
+	23: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `<main>'
+	22: from /home/user/.ruby/bin/ruby_executable_hooks:22:in `eval'
+	21: from /home/user/.ruby/bin/rackup:23:in `<main>'
+	20: from /home/user/.ruby/bin/rackup:23:in `load'
+	19: from /home/user/.ruby/gems/rack-2.2.3/bin/rackup:5:in `<top (required)>'
+	18: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:168:in `start'
+	17: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:311:in `start'
+	16: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:379:in `handle_profiling'
+	15: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:312:in `block in start'
+	14: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:422:in `wrapped_app'
+	13: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:249:in `app'
+	12: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/server.rb:349:in `build_app_and_options_from_config'
+	11: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:66:in `parse_file'
+	10: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:105:in `load_file'
+	 9: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `new_from_string'
+	 8: from /home/user/.ruby/gems/rack-2.2.3/lib/rack/builder.rb:116:in `eval'
+	 7: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `block in <main>'
+	 6: from /home/user/Phase-3/My-App-Backend/config.ru:1:in `require_relative'
+	 5: from /home/user/Phase-3/My-App-Backend/config/environment.rb:10:in `<top (required)>'
+	 4: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `require_all'
+	 3: from /home/user/.ruby/gems/require_all-3.0.0/lib/require_all.rb:96:in `each

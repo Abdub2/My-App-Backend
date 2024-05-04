@@ -36,7 +36,7 @@ class UserController < Sinatra::Base
       request_payload = JSON.parse(request.body.read)
       email = request_payload['email']
       password = request_payload['password'].to_i
-      user = User.find{ |u| u[:email] == email && u[:password] == password }
+      user = User.find_by{ :email == email && u[:password] == password }
       if user
         {message: "Login success!"}.to_json
       else
@@ -54,6 +54,17 @@ class UserController < Sinatra::Base
       else
         "There was an error saving your movie."
       end
+    end
+
+    delete '/users/destroy/:id' do
+        begin
+        user = User.find(params[:id])
+        user.destroy
+    rescue => e
+        [422 , {
+          error: e.message
+    }.to_json]
+    end
     end
 
     # get '/users/:id' do
